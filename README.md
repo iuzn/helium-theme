@@ -1,9 +1,11 @@
 # Element Blog  | Helium
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fiuzn%2Fhelium-theme%2Ftree%2Fmain&env=NEXT_PUBLIC_NAME,NAME,NEXT_PUBLIC_FAVICON_URL,NEXT_PUBLIC_AVATAR_URL,NEXT_PUBLIC_BLOG_TITLE,NEXT_PUBLIC_BLOG_DESCRIPTION,NEXT_PUBLIC_BLOG_ID,NEXT_PUBLIC_PROJECT_ID,NEXT_PUBLIC_CUSTOM_PAGE_ID&envDescription=Please%20follow%20learn%20more%20to%20help&envLink=https%3A%2F%2Fgithub.com%2Fiuzn%2Fhelium-theme%2Fblob%2Fmain%2FREADME.md)
 
-React renderer: [*react-notion*](https://github.com/splitbee/react-notion)  *(Redesigned)*
-Serverless wrapper: [*notion-api-worker*](https://github.com/splitbee/notion-api-worker) 
-Website template: [*twitter-web-react*](https://github.com/ademilter/twitter-web-react) *(Redesigned)*
+## Building blocks
+- React renderer: [*react-notion*](https://github.com/splitbee/react-notion)  *(Redesigned)*
+- Serverless wrapper: [*notion-api-worker*](https://github.com/splitbee/notion-api-worker) 
+- Website template: [*twitter-web-react*](https://github.com/ademilter/twitter-web-react) *(Redesigned)*
+- CSS framework: [*tailwindcss*](https://github.com/tailwindlabs/tailwindcss)
 
 ## Setup
 ### 1- Duplicate this  [page](https://www.notion.so/elementlab/Tables-7378cd4912a14b099a23ada31cbd1871)
