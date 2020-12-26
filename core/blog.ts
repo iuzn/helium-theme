@@ -12,10 +12,4 @@ export const getPageBlocks = async (pageId: string): Promise<BlockMapType> => {
   ).then(res => res.json());
 };
 
-export const getDateStr = (date: Date | string) => {
-  return new Date(date).toLocaleString(undefined, {
-    month: "long",
-    day: "2-digit",
-    year: "numeric",
-  });
-};
+
