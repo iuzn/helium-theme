@@ -11,5 +11,3 @@ export const getPageBlocks = async (pageId: string): Promise<BlockMapType> => {
     `https://notion-api.elementlab.net/v1/page/${pageId}`
   ).then(res => res.json());
 };
-
-
