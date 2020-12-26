@@ -1,5 +1,7 @@
 
 # Element Blog  | Helium
+> A simple blog system using [Notion](https://notion.so) as a CMS.
+
 
 Example:
 
