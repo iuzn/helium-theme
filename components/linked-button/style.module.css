@@ -5,14 +5,14 @@
   width: max-content;
   svg {
     font-size: 26px;
-    color:inherit;
+    color: inherit;
     & + * {
       margin-left: 20px;
       margin-right: 15px;
     }
   }
-&:hover{
-  color: var(--c-primary);
+  &:hover {
+    color: var(--c-primary);
     background-color: var(--c-yellow);
   }
 }

@@ -10,10 +10,11 @@ function ModSelect({ flat = false }) {
         return (
           <div key={img.src} className={styles.photo}>
             <div>
-
-              <img className={!flat ? styles.image : styles.imageflat} src={img.src} alt={img.alt} />
-
-
+              <img
+                className={!flat ? styles.image : styles.imageflat}
+                src={img.src}
+                alt={img.alt}
+              />
             </div>
 
             <div>

@@ -13,21 +13,17 @@ function Header(props) {
   const router = useRouter()
   const [isShowMod, isShowModset] = useState(false)
   return (
-
     <div className={cn(styles.header)}>
       <div className={styles.headertext}>
         {MENU.map((menu) => {
           const selected = router.pathname === menu.path
           return (
-            <HeaderText key={menu.title}  selected={false}>
+            <HeaderText key={menu.title} selected={false}>
               {selected && menu.title}
             </HeaderText>
           )
         })}
-          <HeaderText >
-              {props.title}
-          </HeaderText>
-
+        <HeaderText>{props.title}</HeaderText>
       </div>
       <div className={styles.modselect}>
         <Button

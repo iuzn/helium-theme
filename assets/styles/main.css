@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 .container {
   @apply max-w-screen-lg;
 }
@@ -27,4 +25,3 @@
 .aspect-16x9 {
   padding-bottom: 56.25%;
 }
-

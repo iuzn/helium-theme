@@ -1,6 +1,6 @@
-import Logo from "../../assets/svgs/logo.svg"
-import Link from "next/link";
-import React from "react";
+import Logo from '../../assets/svgs/logo.svg'
+import Link from 'next/link'
+import React from 'react'
 
 export const Nav: React.FC = () => (
   <nav className="flex justify-between items-center my-4 container">
@@ -16,10 +16,10 @@ export const Nav: React.FC = () => (
         </Link>
       </li> */}
       <li>
-        <Link href={"/work"}>
+        <Link href={'/work'}>
           <a className="text-blue-700 mr-2 px-2 py-1 rounded-md">Work</a>
         </Link>
       </li>
     </ul>
   </nav>
-);
+)

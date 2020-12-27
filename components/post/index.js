@@ -17,9 +17,7 @@ function Blogpost({ video, title, text, children }) {
       <div className={styles.article}>
         <h1 className={styles.title}>Başlık</h1>
         <div className={styles.text}>
-          <p>
-
-          </p>
+          <p></p>
         </div>
         <footer className={styles.footer}>Devam et</footer>
       </div>

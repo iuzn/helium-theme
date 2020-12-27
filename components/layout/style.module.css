@@ -1,31 +1,26 @@
 .layout {
-    display: grid;
-    grid-template-columns: auto 1fr;
+  display: grid;
+  grid-template-columns: auto 1fr;
 
-    min-height: 100vh;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-
+  min-height: 100vh;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (--m) {
-    .layout {
-        display: block;
-    }
-
+  .layout {
+    display: block;
+  }
 }
 
 @media (--t) {
-    .layout {
-        display: grid;
-    }
-
+  .layout {
+    display: grid;
+  }
 }
 
 @media (--d) {
-    .layout {
-        display: grid;
-    }
-
+  .layout {
+    display: grid;
+  }
 }
-

@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import cn from 'classnames'
 import styles from './col-sidebar.module.css'
 import Navigation from '../nav/navigation'
@@ -8,28 +8,25 @@ import { MENU } from '../../constants'
 import NavigationButton from '../nav/button'
 import { useRouter } from 'next/router'
 
-
-
-
 function Sidebar({ flat }) {
-    useEffect(() =>{
-        let prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-            const currentScrollPos = window.pageYOffset;
-            if (prevScrollpos > currentScrollPos  ) {
-                document.getElementById("wrapper").style.bottom = "0";
-            } else {
-                document.getElementById("wrapper").style.bottom = "-50px";
-            }
-            prevScrollpos = currentScrollPos;
-        }
-    } )
+  useEffect(() => {
+    let prevScrollpos = window.pageYOffset
+    window.onscroll = function () {
+      const currentScrollPos = window.pageYOffset
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById('wrapper').style.bottom = '0'
+      } else {
+        document.getElementById('wrapper').style.bottom = '-50px'
+      }
+      prevScrollpos = currentScrollPos
+    }
+  })
 
   const router = useRouter()
 
   return (
     <div>
-      <div id={"wrapper"} className={styles.wrapper}>
+      <div id={'wrapper'} className={styles.wrapper}>
         <nav className={styles.nav}>
           {MENU.map((menu) => {
             const selected = router.pathname === menu.path
