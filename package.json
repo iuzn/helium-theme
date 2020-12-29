@@ -1,7 +1,7 @@
 {
   "name": "helium-theme",
-  "version": "0.1.0",
-  "description": "element blog helium theme",
+  "version": "0.1.1",
+  "description": "Element Blog - Helium Theme",
   "main": "index.js",
   "scripts": {
     "dev": "next",
